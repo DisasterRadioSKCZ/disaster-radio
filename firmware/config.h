@@ -8,6 +8,7 @@
 
 #define CLOCK_SPEED 240
 #define LORA_FREQ 868E6
+#define LORA_SPREAD 12
 
 #ifdef TTGO_LORA_V1
 #define LORA_SCK 5
