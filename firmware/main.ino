@@ -343,7 +343,7 @@ void setupLoRa()
   Layer1Class *Layer1_1 = new Layer1Class();
   Layer1->setPins(LORA_CS, LORA_RST, LORA_IRQ);
   Layer1->setLoRaFrequency(LORA_FREQ);
-  Layer1.setSpreadingFactor(LORA_SPREAD);
+  Layer1->setSpreadingFactor(LORA_SPREAD);
 
   #endif
   #ifdef RL_SX1276
